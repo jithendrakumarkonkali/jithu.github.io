@@ -1,0 +1,55 @@
+body{  
+    background: linear-gradient(orange,brown);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+h1{
+    margin-left: 95px;
+    color: darkred;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 750;
+    text-shadow: 2px 2px 8px crimson;
+}
+
+.calendar{
+    margin-top: 10%;
+    margin-left: 100%;
+    font-family: sans-serif;
+}
+
+.content{
+    color: black;
+}
+
+#table{
+    border-style: solid;
+    border-color: rgb(255, 156, 34);
+    background: beige;
+    width: 350px;
+    height: 350px;
+    border-radius: 10%;
+    padding: 5px;
+    box-shadow: 4px 4px 15px lightsalmon,
+    -4px -4px 15px rgba(190, 63, 12, 0.888);
+
+}
+
+
+#day{
+    font-family: "poppins",sans-serif ;
+    font-size: large;
+    font-style: normal;
+    color: brown;
+}
+#date{
+    font-style: normal;
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+#date:hover{
+    background: rgb(144, 242, 255);
+}
+
